@@ -3,11 +3,137 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Fish and Chips (Abby)</title>
+	<title>Fish and Chips (Cater)</title>
 	<link rel="stylesheet" href="style.css">
+
+	<style>
+		body{
+			max-width: 50rem;
+			margin: auto;;
+		}
+		.color{
+			width: max-content;
+			margin:2rem;
+		}
+		.swatch{
+			width: 2.54cm;
+			aspect-ratio: 1;
+		}
+		.label{
+			font-family: monospace;
+			border-top: 1px solid #CCC;
+			padding-top: 0.5em;
+			margin-top: 0.5em;
+		}
+	</style>
+
 </head>
 <body>
-	<h1>Ceci est mon super projet Fish and Chips qui tue la mort, donnez moi un six s'il vous plait. </h1>
-	<h2>Intro</h2>
+
+	<Section id="identite">
+
+		<article id="Logo">
+			<h2>Logo</h2>
+			<img src="logo.svg" alt="Logo Fish and Chips">
+		</article>
+
+		<article id="Application">
+			<h2>Application</h2>
+			<img src="Capture d’écran 2026-05-20 à 13.06.23.png" alt="Image du food truck">
+		</article>
+
+		<article id="Typofraphy">
+			<h2>Font: Cooper Hewitt</h2>
+			<p style="font-size: var(--fontSize-XS    ) ">    Fish & Chips     --fontSize-XS      0.50rem; / 8px      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem ad esse doloribus dolore voluptatem! Numquam excepturi, doloremque consectetur illum fugit dolore quo repellat illo veritatis voluptas voluptatem, iste nisi laboriosam?          </p>
+			<p style="font-size: var(--fontSize-S     ) ">    Fish & Chips     --fontSize-S       0.71rem; / 11.32px  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio possimus odio ullam, ipsum commodi mollitia tempora fugiat quos natus quia quod ab dolorum et nihil laudantium earum repellendus aspernatur eius.                          </p>
+			<p style="font-size: var(--fontSize-M     ) ">    Fish & Chips     --fontSize-M       1.00rem; / 16px     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, vero laborum maxime harum accusamus sunt soluta illum libero iure alias corporis et expedita esse eligendi qui accusantium. Debitis, quis esse.                             </p>	
+			<p style="font-size: var(--fontSize-L     ) ">    Fish & Chips     --fontSize-L       1.41rem; / 22.62px  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit recusandae quod, ex possimus praesentium vero odio debitis fugit harum delectus quae doloremque numquam. Suscipit culpa, perferendis ipsa reprehenderit delectus praesentium.    </p>
+			<p style="font-size: var(--fontSize-XL    ) ">    Fish & Chips     --fontSize-XL      2.00rem; / 32px     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis consequatur, deserunt earum similique neque iure dolor accusamus quae rerum iste dolorem error perspiciatis maxime reiciendis non odio dolores eum tempore.                     </p>
+			<p style="font-size: var(--fontSize-XXL   ) ">    Fish & Chips     --fontSize-XXL     2.83rem; / 45.23px  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora magnam suscipit fugiat debitis atque eum neque et iusto aut deleniti nihil culpa earum repellendus ad alias, velit hic labore dicta?                                          </p>
+			<p style="font-size: var(--fontSize-XXXL  ) ">    Fish & Chips     --fontSize-XXXL    4.00rem; / 64px     Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi libero numquam ipsum, optio quibusdam ratione fugit dicta ipsa accusamus enim accusantium architecto? Quos dicta deserunt vitae, ea similique debitis dolore!                    </p>
+			<p style="font-size: var(--fontSize-XXXXL ) ">    Fish & Chips     --fontSize-XXXXL   5.65rem; / 90.44px  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque facere recusandae rerum, suscipit sunt, ab nihil natus nulla sequi perferendis exercitationem fuga error quasi reiciendis a ex maiores omnis accusantium.                       </p>
+			<p style="font-size: var(--fontSize-XXXXXL) ">    Fish & Chips     --fontSize-XXXXXL  8.00rem; / 128px    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos consequuntur rem culpa explicabo obcaecati veritatis illum consectetur porro quisquam quod. Aut totam odit dolorem harum accusamus dolore incidunt maiores assumenda!             </p>
+	     </p>	
+		</article>
+
+		<article id="Web">
+			<h2>Maquette du site Web</h2>
+
+			<div class="row">
+				<div>
+					<h3>Page d'acceuil</h3>
+					<img src="Capture d’écran 2026-05-20 à 13.14.31.png" alt="">
+				</div>
+				<div>
+					<h3>Menu</h3>
+					<img src="Capture d’écran 2026-05-20 à 13.14.31.png" alt="">
+				</div>
+				<div>
+					<h3>Horaires et localisation</h3>
+					<img src="Capture d’écran 2026-05-20 à 13.14.31.png" alt="">
+				</div>
+				
+			</div><!-- fin .row -->
+			
+		</article>
+
+	</Section>
+
+
+
+
+	<img src="logo.svg" alt="Logo Fish und Chips">
+
+	<section id="CharteGraphique">
+
+		<article id="Couleur">
+			<h1>Couleur</h1>
+
+			<script src="swatches.js"></script>
+
+			<div class="color">
+				<h3>Couleur principale: Rose </h3>
+				<div class="swatch" style="background: var(--courPrincipale);"></div>
+				<p class="label" data-color-format="hex"></p>
+				<p class="label" data-color-format="rgb"></p>
+				<p class="label" data-color-format="hsl"></p>
+				<p class="label" data-color-format="lab"></p>
+				<p class="label" data-color-format="cmjn"></p>
+
+			</div>
+
+			<div class="color">
+				<h3>Couleur secondaire</h3>
+				<div class="swatch" style="background: var(--couleurSecondaire);"></div>
+				<p class="label" data-color-format="hex"></p>
+				<p class="label" data-color-format="rgb"></p>
+				<p class="label" data-color-format="hsl"></p>
+				<p class="label" data-color-format="lab"></p>
+				<p class="label" data-color-format="cmjn"></p>
+			</div>
+
+			<div class="color">
+				<h3>Mix</h3>
+				<div class="swatch" style="background: color-mix(in srgb, var(--courPrincipale), var(--couleurSecondaire));"></div>
+				<p class="label" data-color-format="hex"></p>
+				<p class="label" data-color-format="rgb"></p>
+				<p class="label" data-color-format="hsl"></p>
+				<p class="label" data-color-format="lab"></p>
+				<p class="label" data-color-format="cmjn"></p>
+			</div>
+
+			<div class="color">
+				<h3>fiesta obscur</h3>
+				<div class="swatch" style="background-color: hsl(from var(--courPrincipale) h s 60%);"></div>
+				<p class="label" data-color-format="hex"></p>
+				<p class="label" data-color-format="rgb"></p>
+			</div>
+
+		</article>
+		<!-- #Couleur -->
+
+	</section>
+	<!-- #CharteGraphique -->
+
 </body>
 </html>
