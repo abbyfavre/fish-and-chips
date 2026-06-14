@@ -5,8 +5,8 @@ img { max-width: 100%; }
 /* Couleur///////////*/
 
 :root {
-	--courPrincipale: hsl(360,100%,50%);
-	--couleurSecondaire: hsl(58,100%,50%);
+	--courPrincipale: black;
+	--couleurSecondaire: white;
 	--couleurObscure: hsl (from var(--courPrincipale) h s 25%)
 }
 
